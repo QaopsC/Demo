@@ -1,0 +1,12 @@
+{
+  "inputUsername": "input#username",
+  "inputPassword": "input#password",
+  "loginButton": "input[type='submit']",
+  "warningSign": "div.alert.alert-danger>p",
+  "loginSign": "div>ul.breadcrumb>li>a",
+  "users": {
+    "user": "administrator",
+    "password": "root"
+  },
+  "alertSecure": "div.alert.alert-danger"
+}

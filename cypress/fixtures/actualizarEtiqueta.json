@@ -1,0 +1,5 @@
+{
+  "nameInput": "input[name='name']",
+  "descriptionArea": "textarea[name='description']",
+  "actualizarEtiquetaButton": "input[type='submit']"
+}

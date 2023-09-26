@@ -1,0 +1,36 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Sample template",
+  "main": "index.js",
+  "scripts": {
+    "test:login:run:chrome": "npx cypress run --browser chrome && node cucumber-html-report.js",
+    "test:login:run:login": "npx cypress run -e TAGS=\"@login-test\" --browser chrome && node cucumber-html-report.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^17.1.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.15.0",
+    "cypress-cucumber-attach-screenshots-to-failed-steps": "^1.0.0",
+    "multiple-cucumber-html-reporter": "^3.4.0",
+    "ts-loader": "^9.4.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/step_definitions/*.js",
+    "html": {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-html/cucumber-report.html"
+    },
+    "messages": {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-ndjson/cucumber-report.ndjson"
+    },
+    "json": {
+      "enabled": true,
+      "formatter": "cucumber-json-formatter",
+      "output": "cypress/reports/cucumber-json/cucumber-report.json"
+    }
+  }
+}

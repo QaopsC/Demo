@@ -1,0 +1,28 @@
+{
+  "alert": "div[class='alert alert-danger']",
+  "crearEtiquetaButton": "input[name='config_set']",
+  "iIcon": "ul[class*='nav nav-tabs']>li:nth-child(1)",
+  "administrarUsuariosBtn": "ul[class*='nav nav-tabs']>li:nth-child(2)",
+  "administrarProyectosBtn": "ul[class*='nav nav-tabs']>li:nth-child(3)",
+  "administrarEtiquetasBtn": "ul[class*='nav nav-tabs']>li:nth-child(4)",
+  "nameInput": "input#tag-name",
+  "fullTable": "ul[class='nav nav-tabs padding-18']>li>a",
+  "descripcionTextArea": "textarea#tag-description",
+  "etiquetasTableName": "tbody:nth-child(2)>tr>td:nth-child(1)>a",
+  "etiquetasTableCreador": "tbody:nth-child(2)>tr>td:nth-child(2)",
+  "etiquetasTableFecha": "tbody:nth-child(2)>tr>td:nth-child(3)",
+  "etiquetasTableActualizacion": "tbody:nth-child(2)>tr>td:nth-child(4)",
+  "administrarCamposBtn": "ul[class*='nav nav-tabs']>li:nth-child(5)",
+  "administrarPerfilesBtn": "ul[class*='nav nav-tabs']>li:nth-child(6)",
+  "administrarPluginsBtn": "ul[class*='nav nav-tabs']>li:nth-child(7)",
+  "administrarConfiguracionBtn": "ul[class*='nav nav-tabs']>li:nth-child(8)",
+  "botonesTabla": {
+    "administrarUsuariosBtn": "Administrar usuarios",
+    "administrarProyectosBtn": "Administrar proyectos",
+    "administrarEtiquetasBtn": "Administrar etiquetas",
+    "administrarCamposBtn": "Administrar Campos Personalizados",
+    "administrarPerfilesBtn": "Administrar Perfiles Globales",
+    "administrarPluginsBtn": "Administrar Plugins",
+    "administrarConfiguracionBtn": "Administrar Configuración"
+  }
+}
